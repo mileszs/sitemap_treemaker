@@ -1,9 +1,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
+require 'sitemap_treemaker/version'
+
 Gem::Specification.new do |s|
   s.name        = "sitemap_treemaker"
-  s.version     = "0.1.0"
+  s.version     = SitemapTreemaker::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Miles Z. Sterrett"]
   s.email       = ["miles@mileszs.com"]
