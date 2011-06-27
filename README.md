@@ -34,6 +34,7 @@ I need to build a tree out of all of these clearly hierarchal links. So, I do th
     * root
     |---+ about-someplace
     |    |---> board-of-directors
+```
 
 ## TODO
 
