@@ -34,3 +34,11 @@ I need to build a tree out of all of these clearly hierarchal links. So, I do th
     * root
     |---+ about-someplace
     |    |---> board-of-directors
+
+## TODO
+
+_???_
+
+I'm sure there are other things that will need to happen in this gem. As I use it more, I'm sure it'll get fleshed out. If you've got ideas, send them to me by writing them with a thick black marker on the label on a Dogfish Head 90 Minute IPA and mailing it to me or something. If you're also from Indiana, or one of the other states that Dogfish Head no longer serves... I don't know. Email me, or whatever.
+
+Also, pull requests are welcomed. Prepare for poor response times, though.
