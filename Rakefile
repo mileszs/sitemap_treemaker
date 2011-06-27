@@ -2,7 +2,7 @@ require "rubygems"
 require 'rake'
 require 'rake/testtask'
 require "bundler/setup"
-require 'sitemap_treemaker/version'
+require './lib/sitemap_treemaker/version'
 
 Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
