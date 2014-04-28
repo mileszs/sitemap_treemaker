@@ -6,11 +6,11 @@ class SitemapTreemakerTest < MiniTest::Unit::TestCase
     fixtures_path = File.expand_path('../fixtures', __FILE__)
     sitemap_xml = File.read(File.join(fixtures_path, 'iuhealth.org/sitemap.xml'))
     FakeWeb.register_uri(:get, 'http://iuhealth.org/sitemap.xml', body: sitemap_xml)
-    @sitemap_reader = SitemapTreemaker::Tree.new('http://iuhealth.org/sitemap.xml')
+    @sitemap_reader = SitemapTreemaker::Sitemap.new('http://iuhealth.org/sitemap.xml')
   end
 
   def test_initialize_returns_self
-    assert @sitemap_reader.is_a? SitemapTreemaker::Tree
+    assert @sitemap_reader.is_a? SitemapTreemaker::Sitemap
   end
 
   def test_initialize_sets_xml

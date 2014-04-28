@@ -1,5 +1,5 @@
 module SitemapTreemaker
-  class Tree
+  class Sitemap
     attr_accessor :sitemap_url, :xml, :urls
 
     def initialize(sitemap_url)
