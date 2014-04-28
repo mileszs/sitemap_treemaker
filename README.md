@@ -1,6 +1,8 @@
 # Sitemap Treemaker
 ... 'cause all the clever names are taken, probably.
 
+[![Build Status](https://travis-ci.org/mileszs/sitemap_treemaker.svg?branch=master)](https://travis-ci.org/mileszs/sitemap_treemaker)
+
 **Problem**: I've got a basic sitemap.xml. It looks like this:
 
 ```xml
