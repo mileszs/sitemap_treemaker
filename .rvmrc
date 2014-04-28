@@ -1,1 +1,1 @@
-rvm ruby-1.9.2-head@sitemap_reader --create
+rvm ruby-2.0.0@sitemap_reader --create

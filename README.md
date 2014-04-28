@@ -20,14 +20,14 @@ I need to build a tree out of all of these clearly hierarchal links. So, I do th
 
 ```ruby
 
-    sitemap_tree = SitemapTreemaker.new('http://someplace.org/sitemap.xml')
+    sitemap_tree = SitemapTreemaker::Tree.new('http://someplace.org/sitemap.xml')
     sitemap_tree.tree
 ```
 
 `tree` returns a `Tree::TreeNode` from the library [RubyTree](http://rubytree.rubyforge.org/). I can now take that tree and do something useful with it, maybe. Or, I could just print a pretty diagram:
 
 ```ruby
-    sitemap_tree = SitemapTreemaker.new('http://someplace.org/sitemap.xml')
+    sitemap_tree = SitemapTreemaker::Tree.new('http://someplace.org/sitemap.xml')
     sitemap_tree.print_tree_diagram
 
     #=>
