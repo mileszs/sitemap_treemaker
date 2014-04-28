@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<sitemapindex xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+  <sitemap>
+    <loc>https://artsy.net/sitemap-artists-1.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://artsy.net/sitemap-artworks-33.xml</loc>
+  </sitemap>
+  <url>
+    <loc>https://artsy.net/about</loc>
+    <priority>0.75</priority>
+    <lastmod>2013-11-13</lastmod>
+  </url>
+</sitemapindex>

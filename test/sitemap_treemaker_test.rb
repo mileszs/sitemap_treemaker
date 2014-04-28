@@ -13,8 +13,9 @@ class SitemapTreemakerTest < MiniTest::Unit::TestCase
     assert @sitemap_reader.is_a? SitemapTreemaker::Sitemap
   end
 
-  def test_initialize_sets_xml
-    assert @sitemap_reader.xml
+  def test_initialize_sets_xmls
+    assert @sitemap_reader.xmls
+    assert @sitemap_reader.xmls['http://iuhealth.org/sitemap.xml']
   end
 
   def test_tree_returns_a_tree_node_object
