@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rocco"
   s.add_development_dependency "rr"
   s.add_development_dependency "turn"
+  s.add_development_dependency "fakeweb"
 
   s.add_dependency "nokogiri"
   s.add_dependency "rubytree"
